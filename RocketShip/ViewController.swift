@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         Clouds.isHidden = false;
         
         UIView.animate(withDuration: 3, animations: {
-            self.Rocket.frame = CGRect(x: 0, y: 150, width: 240, height: 128)
+            self.Rocket.frame = CGRect(x: 90, y: 150, width: 240, height: 128)
         }){ (finished) in
             self.blastOffLbl.isHidden = false;
     }
